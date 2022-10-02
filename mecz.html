@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "mecz.css" type= "text/css"/>
+    <title>Mecz</title>
+</head>
+<body>
+    <div class="wrapper">
+        
+        <div class="licznik-caly">
+            
+            <div class="licznik licznik-lewy">
+                <div class="wyswietlacz wyswietlacz-lewy"><p>0</p></div>
+                    <div class="buttony">
+                        <div class="rzut rzut-za-2-lewy">Rzut za 2</div>
+                        <div class="rzut rzut-za-3-lewy">Rzut za 3</div>
+                    </div>
+            </div>
+
+            <div class="licznik licznik-prawy">
+                <div class="wyswietlacz wyswietlacz-prawy"><p>0</p></p></div>
+                    <div class="buttony">
+                        <div class="rzut rzut-za-2-prawy">Rzut za 2</div>
+                        <div class="rzut rzut-za-3-prawy">Rzut za 3</div>
+                    </div>
+            </div>
+
+            <div class="wyswietlacz-obok-container">
+                <div class="wyswietlacz wyswietlacz-obok">0:0</div>
+                <button class="wyswietl-wynik">Wyświetl wynik</button>
+            </div>
+        </div>
+
+        <div class="komentarze-calosc">
+            <div class="dodaj-komentarz">
+                <textarea id ="kom" placeholder="Tu wpisz komentarz"></textarea>
+                <button class="zapisz" id="zapisz">Zapisz komentarz</button>
+            </div>
+
+            <textarea class="lista-komentarzy"></textarea>
+            
+        </div>
+
+        <div class="team-table-and-button">
+            <table class="team-table">
+                <tr>
+                    <th>ID</th>
+                    <th>name</th>
+                </tr>
+                
+            </table>
+
+            <button class="add-team-button">Dodaj</div>
+        </div>
+    </div>
+
+    <script src="./mecz.js"></script>
+</body>
+</html>
